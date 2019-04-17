@@ -436,6 +436,7 @@ h1 {
 }
 
 .tabs a {
+	color:black;
 	text-decoration: none;
 	display: inline;
 	padding:8px;
@@ -489,6 +490,7 @@ h1 {
 }
 
 .facebook a{
+	color:black;
 	text-decoration: none;
   border: 2px solid;
   background-color: white;
@@ -504,6 +506,7 @@ h1 {
 }
 
 .signupsite a{
+	color:black;
 	text-decoration: none;
 	border: 2px solid;
 	padding: 5px;
