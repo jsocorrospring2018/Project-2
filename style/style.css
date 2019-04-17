@@ -398,8 +398,14 @@ template {
 
 img {
 	float:left;
+	padding-left: 20px;
+	padding-top: 10px;
 }
 
 h2 {
 	padding-top: 90px;
+}
+
+body {
+	background-image:url("../media/lake.jpg");
 }
