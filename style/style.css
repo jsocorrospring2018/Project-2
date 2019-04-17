@@ -413,12 +413,13 @@ h1 {
 
 .nav {
 	padding-top: 10px;
-	
+padding-bottom: 20px;
+
 }
 
 .tabs {
 	display: inline;
-	float: left;
+	/*float: left;*/
 
 }
 
@@ -430,4 +431,37 @@ h1 {
 
 .tabs:hover {
 
+}
+
+.box {
+	display: block;
+	text-align: center;
+	border: 2px solid;
+	border-color: #161919;
+	/* font: 1em Georgia, "Times New Roman", Times, serif; */
+	background-color: #4aa9a7;
+	opacity: .9;
+	width: 80%;
+	height: 80%;
+	margin: auto;
+	line-height: 1.8;
+	/* padding-top: 100px; */
+}
+
+.congress {
+	padding-top: 5px;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.subCongress {
+	font-size: 25px;
+}
+
+.committee {
+	padding-top: 8px;
+    width: 18%;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
 }
