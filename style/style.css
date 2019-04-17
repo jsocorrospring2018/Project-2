@@ -395,3 +395,11 @@ template {
 [hidden] {
   display: none;
 }
+
+img {
+	float:left;
+}
+
+h2 {
+	padding-top: 90px;
+}
