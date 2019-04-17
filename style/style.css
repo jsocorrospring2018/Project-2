@@ -402,10 +402,11 @@ img {
 	padding-top: 10px;
 }
 
-h2 {
+h1 {
 	padding-top: 90px;
 }
 
-body {
+.back {
 	background-image:url("../media/lake.jpg");
+	background-size: cover;
 }
