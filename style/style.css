@@ -410,3 +410,24 @@ h1 {
 	background-image:url("../media/lake.jpg");
 	background-size: cover;
 }
+
+.nav {
+	padding-top: 10px;
+	
+}
+
+.tabs {
+	display: inline;
+	float: left;
+
+}
+
+.tabs a {
+	display: inline;
+	padding:8px;
+	background-color: lightblue;
+}
+
+.tabs:hover {
+
+}
