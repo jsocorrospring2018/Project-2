@@ -396,6 +396,10 @@ template {
   display: none;
 }
 
+/*Jorell Styling*/
+
+/* Home Page Styling*/
+
 img {
 	float:left;
 	padding-left: 20px;
@@ -411,26 +415,36 @@ h1 {
 	background-size: cover;
 }
 
+.navBar {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
 .nav {
-	padding-top: 10px;
-padding-bottom: 20px;
+	background-color: white;
+	text-align: center;
+	padding:8px;
 
 }
 
 .tabs {
+	text-decoration: none;
 	display: inline;
+	padding: 8px;
 	/*float: left;*/
 
 }
 
 .tabs a {
+	text-decoration: none;
 	display: inline;
 	padding:8px;
-	background-color: lightblue;
+	/*background-color: lightblue;*/
 }
 
 .tabs:hover {
-
+	background-color: #4aa9a7;
+	padding: 8px;
 }
 
 .box {
@@ -465,3 +479,39 @@ padding-bottom: 20px;
     margin: auto;
     font-size: 16px;
 }
+
+.buttonLayout {
+	padding-top: 10px;
+}
+
+.facebook {
+		display: inline;
+}
+
+.facebook a{
+	text-decoration: none;
+  border: 2px solid;
+  background-color: white;
+  padding: 5px;
+}
+
+.facebook a:hover {
+	background-color: #4aa9a7;
+}
+
+.signupsite {
+		display: inline;
+}
+
+.signupsite a{
+	text-decoration: none;
+	border: 2px solid;
+	padding: 5px;
+	background-color: white;
+}
+
+.signupsite a:hover {
+	background-color: #4aa9a7;
+}
+
+/* News Styling */
