@@ -398,7 +398,7 @@ template {
 
 /*Jorell Styling*/
 
-/* Home Page Styling*/
+/* Something each page has Styling*/
 
 img {
 	float:left;
@@ -420,10 +420,18 @@ body {
   left:0;
   bottom:0;
   padding-bottom:10px;
+	opacity: .7;
 }
 
 .footerSub {
 	padding-top: 5px;
+}
+
+.nav {
+	background-color: white;
+	text-align: center;
+	padding:8px;
+	opacity: .7;
 }
 
 /* Home */
@@ -439,12 +447,7 @@ body {
 	padding-bottom: 20px;
 }
 
-.nav {
-	background-color: white;
-	text-align: center;
-	padding:8px;
 
-}
 
 .tabs {
 	text-decoration: none;
@@ -480,6 +483,7 @@ body {
 	margin: auto;
 	line-height: 1.8;
 	padding-bottom: 20px;
+	margin-bottom: 18.5%;
 }
 
 .congress {
@@ -615,8 +619,6 @@ body {
 	text-align: center;
 	margin: auto;
 }
-
-
 
 .birth{
 	display: block;
