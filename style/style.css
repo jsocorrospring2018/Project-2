@@ -629,5 +629,6 @@ resize: none;
 }
 
 .note {
-	
+	font-size: x-small;
+  padding-top: 10px;
 }
