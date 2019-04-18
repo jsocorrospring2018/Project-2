@@ -654,3 +654,11 @@ resize: none;
 .mem1 {
 	font-size: x-small;
 }
+
+.historyH {
+	font-size: 25px;
+}
+
+.historySub {
+	font-size: 13px;
+}
