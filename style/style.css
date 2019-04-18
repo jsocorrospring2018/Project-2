@@ -410,9 +410,14 @@ h1 {
 	padding-top: 90px;
 }
 
+body {
+	width: 100%;
+}
+
 .back {
 	background-image:url("../media/lake.jpg");
 	background-size: cover;
+	margin: auto;
 }
 
 .navBar {
@@ -460,7 +465,7 @@ h1 {
 	height: 80%;
 	margin: auto;
 	line-height: 1.8;
-	/* padding-top: 100px; */
+	padding-bottom: 20px;
 }
 
 .congress {
@@ -518,3 +523,103 @@ h1 {
 }
 
 /* News Styling */
+
+.journalImg {
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.journalSub {
+	width: 90%;
+}
+
+.journalLink {
+	font-size: 25px;
+  font-style: italic;
+}
+
+.journalLink a {
+	text-decoration: none;
+	color: black;
+}
+
+.box2 {
+	display: block;
+	text-align: center;
+	border: 2px solid;
+	border-color: #161919;
+	/* font: 1em Georgia, "Times New Roman", Times, serif; */
+	background-color: #4aa9a7;
+	opacity: .9;
+	width: 80%;
+	height: 80%;
+	line-height: 1.8;
+	margin: auto;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.videoSub {
+	width: 90%;
+	margin: auto;
+}
+
+.fVideo {
+	font-size: 25px;
+}
+
+.video {
+	width: 393px;
+    height: 221px;
+}
+
+.videoW {
+	width: 40%;
+  text-align: center;
+  margin: auto;
+  font-size: small;
+}
+
+.videoLink a {
+	text-decoration: none;
+	color: black;
+}
+
+
+/* Contact Page */
+
+.input {
+	text-align: center;
+	margin: auto;
+}
+
+
+
+.birth{
+	display: block;
+}
+
+.phone{
+	display: block;
+}
+
+.comment {
+	display: block;
+}
+
+.commentBox {
+	/* margin: 0px; */
+/* width: 194px; */
+/* height: 40px; */
+width: 80%;
+height: 100px;
+padding-bottom: 50px;
+box-sizing: border-box;
+/* border: 2px solid #ccc; */
+/* border-radius: 4px; */
+/* background-color: #f8f8f8; */
+font-size: 16px;
+resize: none;
+}

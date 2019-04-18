@@ -4,25 +4,44 @@
   <title>Lab 2</title>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width,initial-scale=1.0,shrink-to-fit=no" />
-  <link rel="stylesheet" media="screen" href="style/screen.css" />
+  <link rel="stylesheet" media="screen" href="style/style.css" />
 
 </head>
-<body>
-  <h1> Form </h1>
+  <body class = "back">
+    <header>
+      <img src="https://static.wixstatic.com/media/80ed71_fa1e21e9f65843cd91dce868c24ee78f.jpg/v1/fill/w_135,h_141,al_c,q_80,usm_0.66_1.00_0.01/80ed71_fa1e21e9f65843cd91dce868c24ee78f.webp" type="images/">
+      <h1> International Society of Universal Dialogue </h1>
+    </header>
+    <nav class="navBar">
+      <ul class=nav>
+        <li class="tabs"><a href="home.html">Home</a></li>
+        <li class="tabs"><a href="news.html">News</a></li>
+        <li class="tabs"><a href="contact.html">Contact</a></li>
+        <li class="tabs"><a href="#about">About</a></li>
+      </ul>
+    </nav>
 
-    <fieldset>
-      <form class="maincontainer">
+    <fieldset class ="box">
+      <form action="http://formspree.io/12jorell@gmail.com" method="POST" id="form_contact">
+        <div class="input">
+          <label class="mail" style="display: block;">Email</label>
+          <input type="email" id="name" name="email" placeholder="email">
+        </div>
 
-        <label for="name">Email</label>
-        <input type="text" id="name" name="email" placeholder="email">
+        <div class="input">
+          <label class="phone">Your phone number</label>
+          <input type="tel" id="phone" name="phone" placeholder="Your digits">
+        </div>
 
-        <label for="phone">Your phone number</label>
-        <input type="tel" id="phone" name="phone" placeholder="Your digits">
+        <div class="input">
+          <label class="birth">Day of Birth </label>
+          <input type="text" id="birth" name="birth" placeholder="yyyy/mm/dd" >
+        </div>
 
-        <label for="birth">Day of Birth </label>
-        <input type="text" id="birth" name="birth" placeholder="yyyy/mm/dd" >
-
-
+        <div class="comment">
+          <label class="comment">Comments</label>
+          <textarea class="commentBox" name="message" placeholder="Test Message" id="comment_box"></textarea>
+        </div>
         <input type="submit" value="Submit">
 
       </form>
