@@ -642,6 +642,7 @@ resize: none;
 
 .board {
 	font-size: 20px;
+	text-decoration-line: underline;
 }
 
 .bmembers {
