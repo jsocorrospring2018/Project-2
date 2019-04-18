@@ -590,6 +590,10 @@ body {
 
 /* Contact Page */
 
+.contactH {
+	font-size: xx-large;
+}
+
 .input {
 	text-align: center;
 	margin: auto;
@@ -622,4 +626,8 @@ box-sizing: border-box;
 /* background-color: #f8f8f8; */
 font-size: 16px;
 resize: none;
+}
+
+.note {
+	
 }
