@@ -559,6 +559,7 @@ body {
     height: 80%;
     line-height: 1.8;
     margin: auto;
+		padding-bottom: 10px;
     margin-top: 10px;
     margin-bottom: 25px;
 }
@@ -661,4 +662,13 @@ resize: none;
 
 .historySub {
 	font-size: 13px;
+}
+
+.historyInfo {
+	font-size: 15px;
+}
+
+.constitutionLink a{
+	text-decoration: none;
+	color: black;
 }
