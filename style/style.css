@@ -470,8 +470,10 @@ body {
 
 .congress {
 	padding-top: 5px;
-	font-size: 30px;
-	font-weight: bold;
+    font-size: 30px;
+    font-weight: bold;
+    width: 80%;
+    margin: auto;
 }
 
 .subCongress {
@@ -547,18 +549,18 @@ body {
 
 .box2 {
 	display: block;
-	text-align: center;
-	border: 2px solid;
-	border-color: #161919;
-	/* font: 1em Georgia, "Times New Roman", Times, serif; */
-	background-color: #4aa9a7;
-	opacity: .9;
-	width: 80%;
-	height: 80%;
-	line-height: 1.8;
-	margin: auto;
-	margin-top: 10px;
-	margin-bottom: 25px;
+    text-align: center;
+    border: 2px solid;
+    border-color: #161919;
+    /* font: 1em Georgia, "Times New Roman", Times, serif; */
+    background-color: #4aa9a7;
+    opacity: .9;
+    width: 80%;
+    height: 80%;
+    line-height: 1.8;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 25px;
 }
 
 .videoSub {
@@ -571,8 +573,8 @@ body {
 }
 
 .video {
-	width: 393px;
-    height: 221px;
+	width: 80%;
+  margin: auto;
 }
 
 .videoW {
@@ -649,6 +651,6 @@ resize: none;
 
 }
 
-.mem {
-
+.mem1 {
+	font-size: x-small;
 }
