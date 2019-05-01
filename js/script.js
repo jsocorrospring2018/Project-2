@@ -2,16 +2,15 @@ function validateForm()  {
   var x = document.forms["myForm"]["email"].value;
   var y = document.forms["myForm"]["message"].value;
 
-  if(x == ""){
+  if(x == "" || y == ""){
     alert("Email and comment must be filled out");
     return false;
+  }
+  else{
+    alert("Thank you, We will contact you within a day or 2 upon receiving your contact");
   }
 
-  if(y == ""){
-    alert("Email and comment must be filled out");
-    return false;
-  }
 }
 function warning() {
- return "Do you want to leave this page?";
+ alert("Wish To you see later");
 }
