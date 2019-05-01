@@ -435,7 +435,13 @@ body {
 }
 
 /* Home */
-
+@media screen and (max-width: 992px) {
+	.back {
+		background-image:url("../media/sky.jpg");
+		background-size: cover;
+		margin: auto;
+	}
+}
 .back {
 	background-image:url("../media/lake.jpg");
 	background-size: cover;
@@ -446,7 +452,6 @@ body {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
-
 
 
 .tabs {
@@ -481,6 +486,25 @@ body {
 	width: 80%;
 	height: 80%;
 	margin: auto;
+	line-height: 1.8;
+	padding-bottom: 20px;
+	margin-bottom: 5%;
+}
+
+.boxI {
+	display: block;
+	text-align: center;
+	border: 2px solid;
+	border-color: #161919;
+	/* font: 1em Georgia, "Times New Roman", Times, serif; */
+	background-color: #4aa9a7;
+	opacity: .9;
+	width: 80%;
+	height: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: 100%;
 	line-height: 1.8;
 	padding-bottom: 20px;
 	margin-bottom: 5%;
