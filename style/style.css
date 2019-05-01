@@ -452,6 +452,12 @@ body {
 		background-size: cover;
 		margin: auto;
 	}
+	.sighupsite a{
+		display:block;
+	}
+	.facebook a{
+		display: block;
+	}
 }
 
 .navBar {
@@ -541,7 +547,8 @@ body {
 }
 
 .facebook {
-		display: inline;
+	width: 30%;
+	margin: auto;
 }
 
 .facebook a{
