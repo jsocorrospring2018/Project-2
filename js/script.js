@@ -11,4 +11,4 @@ function validateForm()  {
     alert("Email and comment must be filled out");
     return false;
   }
-}\
+}
