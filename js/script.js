@@ -12,3 +12,6 @@ function validateForm()  {
     return false;
   }
 }
+function warning() {
+ return "Do you want to leave this page?";
+}
